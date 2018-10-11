@@ -1,9 +1,9 @@
-package com.sogou.qadev.cache.impl;
+package com.chiang.spring.learn.utils;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import com.sogou.qadev.cache.ehcacheTestI;
+import com.chiang.spring.learn.ehcacheTestI;
 
 @Service
 public class ehcacheTest implements ehcacheTestI {

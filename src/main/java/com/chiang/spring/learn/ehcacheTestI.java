@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sogou.qadev.cache;
+package com.chiang.spring.learn;
 
 /**
  * @author adp
