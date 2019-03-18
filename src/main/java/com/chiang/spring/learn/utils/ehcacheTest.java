@@ -13,6 +13,12 @@ public class ehcacheTest implements ehcacheTestI {
         Long timestamp = System.currentTimeMillis();
         return timestamp.toString();
     }
+    
+    @Cacheable(value="cacheTest",key="#param1")
+    public String getTimestampA(String param,String test) {
+        Long timestamp = System.currentTimeMillis();
+        return timestamp.toString();
+    }
 
 }
 

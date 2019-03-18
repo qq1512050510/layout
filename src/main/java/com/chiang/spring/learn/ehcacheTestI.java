@@ -9,4 +9,5 @@ package com.chiang.spring.learn;
  */
 public interface ehcacheTestI {
 	  public String getTimestamp(String param);
+	  public String getTimestampA(String param,String test);
 }
